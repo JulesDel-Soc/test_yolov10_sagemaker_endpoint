@@ -34,5 +34,5 @@ def output_fn(prediction_output, content_type):
         return json_result
     except Exception as e:
         print(e)
-        raise esult.probs.cpu().numpy().data.tolist()
+        raise result.probs.cpu().numpy().data.tolist()
     return json.dumps(infer)
