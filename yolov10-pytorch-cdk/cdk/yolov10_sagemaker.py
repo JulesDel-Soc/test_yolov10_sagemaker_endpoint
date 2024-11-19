@@ -59,5 +59,5 @@ class YOLOv10SageMakerStack(Stack):
             volume_size_in_gb=5,
             notebook_instance_name=nid,
             role_arn=nRole.role_arn,
-            additional_code_repositories=["https://github.com/aws-samples/host-yolov10-on-sagemaker-endpoint"],
+            additional_code_repositories=["https://github.com/JulesDel-Soc/test_yolov10_sagemaker_endpoint"],
         )
